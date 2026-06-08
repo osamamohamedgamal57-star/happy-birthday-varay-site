@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Fucking Birthday Varay</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- FLOATING HEARTS -->
+
+<div class="floating-shapes">
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+</div>
+
+<!-- LOGIN PAGE -->
+
+<div id="loginPage" class="login-page">
+
+    <h1>Who is turning 17 rn?</h1>
+
+    <p>Happy birthday to you 🎂</p>
+
+    <input
+        type="password"
+        id="passwordInput"
+        placeholder="Enter Secret Code"
+    >
+
+    <button onclick="checkPassword()">
+        Enter
+    </button>
+
+    <p id="error"></p>
+
+</div>
+
+<!-- MAIN PAGE -->
+
+<div id="mainPage" class="hidden">
+
+    <h1 class="title">
+        Happy Fucking Birthday Varay 🎂
+    </h1>
+
+    <div class="cards">
+
+        <div
+            class="card"
+            onclick="openModal('thoughtsModal')"
+        >
+            💭 Thoughts
+        </div>
+
+        <div
+            class="card"
+            onclick="openModal('musicModal')"
+        >
+            🎵 Music
+        </div>
+
+        <div
+            class="card"
+            onclick="openModal('notesModal')"
+        >
+            📝 Notes
+        </div>
+
+        <div
+            class="card"
+            onclick="openModal('galleryModal')"
+        >
+            📸 Gallery
+        </div>
+
+        <div
+            class="card"
+            onclick="openModal('counterModal')"
+        >
+            ⏳ Age Counter
+        </div>
+
+        <div
+            class="card"
+            onclick="openModal('gameModal')"
+        >
+            🎮 Catch The Cat
+        </div>
+
+    </div>
+
+    <!-- RANDOM WORDS -->
+
+    <div class="random-words">
+
+        <span>VARAY</span>
+
+        <span>VUDKA</span>
+
+        <span>BLAYT</span>
+
+        <span>SUKA</span>
+
+        <span>INTERNET</span>
+
+        <span>RUSSIA 🇷🇺</span>
+
+    </div>
+
+</div>
+<!-- THOUGHTS -->
+
+<div id="thoughtsModal" class="modal">
+
+<div class="modal-content">
+
+<span class="close" onclick="closeModal('thoughtsModal')">
+&times;
+</span>
+
+<h2>Thoughts</h2>
+
+<div class="letter">
+
+<h3>First Time We Met</h3>
+
+<p>
+ It was around 10:00 PM.
+We ended up talking alone for almost 30 minutes. Nobody really joined us except a Pakistani guy for about 30 seconds.
+
+<br><br>
+
+ Honestly, it made sense. Two weird people obsessed with music and songs somehow found each other.
+When my time ran out, we moved to Instagram and kept talking for another 1 hour and 20 minutes..
+
+<br><br>
+Every plan we tried failed because of your phone, so we just kept talking and doing random things instead.
+
+You showed me your room, then started playing Minecraft (I still had no idea what was going on 😭)
+
+<br><br>
+
+Looking back, it was such a random night.
+
+And somehow, one of the most fun ones.
+</p>
+
+</div>
+
+<div class="letter">
+
+<h3>We've Met Before</h3>
+
+<p>
+That is us (not AI) cuz we've met 180,000 years ago but u forgot.
+
+<br><br>
+
+And finally I think I found a reason why we almost the same.
+</p>
+
+<img
+src="images/met-before.jpg"
+class="thought-image"
+>
+
+</div>
+
+<div class="letter">
+
+<h3>Why ur phone hates me ?</h3>
+
+<p>
+Fuck it anyway, I mma taking revenge oneday.
+</p>
+
+</div>
+
+<div class="letter">
+
+<h3>Why everything here is pink?</h3>
+
+<p>
+Dah!
+
+<br><br>
+
+Ur favorite color !!
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- MUSIC -->
+
+<div id="musicModal" class="modal">
+
+<div class="modal-content">
+
+<span class="close" onclick="closeModal('musicModal')">
+&times;
+</span>
+
+<h2>Music</h2>
+
+<p>
+Few songs that is gonna remind u of me
+</p>
+
+<ul class="music-list">
+
+<li>
+<a href="https://youtu.be/nb8CnIo_-_A" target="_blank">
+Babydoll
+</a>
+</li>
+
+<li>
+<a href="https://youtu.be/xeMOO5EudYs" target="_blank">
+Sway
+</a>
+</li>
+
+<li>
+<a href="https://youtu.be/JYuyWrkwpok" target="_blank">
+Fly Me To The Moon
+</a>
+</li>
+
+<li>
+<a href="https://youtu.be/E8gmARGvPlI" target="_blank">
+Last Christmas
+</a>
+</li>
+
+<li>
+<a href="https://youtu.be/UwTqcctD1rw" target="_blank">
+Touch
+</a>
+</li>
+
+<li>
+<a href="https://youtu.be/GCdwKhTtNNw" target="_blank">
+Sweet Weather
+</a>
+</li>
+
+<li>
+<a href="https://youtu.be/lp-EO5I60KA" target="_blank">
+Thinking Out Loud
+</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<!-- NOTES -->
+
+<div id="notesModal" class="modal">
+
+<div class="modal-content">
+
+<span class="close" onclick="closeModal('notesModal')">
+&times;
+</span>
+
+<h2>Notes</h2>
+
+<div class="note">
+Eat well
+</div>
+
+<div class="note">
+Drink at least 1.5 L per day
+</div>
+
+<div class="note">
+Get away from Americans they're toxic n they don't want u you stupid
+</div>
+
+<div class="note">
+Go to the gym n quit laziness
+</div>
+
+<div class="note">
+Always take care of yourself
+</div>
+
+</div>
+
+</div>
+
+<!-- GALLERY -->
+
+<div id="galleryModal" class="modal">
+
+<div class="modal-content">
+
+<span class="close" onclick="closeModal('galleryModal')">
+&times;
+</span>
+
+<h2>
+The Cutest Things I've Ever Seen
+</h2>
+
+<div class="gallery">
+
+<img src="images/dog.jpg">
+
+<img src="images/cat-cap.jpg">
+
+<img src="images/cat-handshake.jpg">
+
+<img src="images/her.jpg">
+
+<img src="images/cat-tongue.jpg">
+
+</div>
+
+</div>
+
+</div>
+<!-- AGE COUNTER -->
+
+<div id="counterModal" class="modal">
+
+<div class="modal-content">
+
+<span class="close" onclick="closeModal('counterModal')">
+&times;
+</span>
+
+<h2>Age Counter</h2>
+
+<div id="ageCounter"></div>
+
+</div>
+
+</div>
+
+<!-- CATCH THE CAT -->
+
+<div id="gameModal" class="modal">
+
+<div class="modal-content">
+
+<span class="close" onclick="closeModal('gameModal')">
+&times;
+</span>
+
+<h2>Catch The Cat 🐱</h2>
+
+<p id="score">
+Score: 0
+</p>
+
+<div class="game-area">
+
+<div id="cat">
+🐱
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
